@@ -1,0 +1,761 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxS;
+
+}
+@media (max-width:1200px) {
+    body{
+       background-image: url(PrettySnow4-Black-BG-Winter-Motion-Background-Video-Loop-SampleStill.jpg);
+       background-size:cover;
+       background-repeat: no-repeat;
+    }
+    #profile-sec{
+        
+        background-color:transparent;
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 0px 10px 2px  rgb(255, 255, 255); 
+        padding-top: 40vh;
+        padding-bottom: 5vh;
+        border-radius: 10%;
+        margin-top: 20px;
+    }
+    .name-txt{
+        text-align: center;
+    }
+    .name-txt h1{
+        font-size: 2rem;
+        margin-bottom: 0%;
+        padding-top: 4vh;
+        margin-top: -17vh;
+        font-family: 'Russo One', sans-serif;
+        color: #ffffff;
+        text-shadow: 0px 0px 25px #fff;
+    }
+    .name-txt quote{
+        margin-top: 0%;
+        font-size: 1.2rem;
+        color: white;
+        text-shadow: 2px 2px 15px #0f0f0f;
+    
+       
+        
+    }
+        .circle,#pro-pic1{
+        height:200px;
+        width: 200px;
+        border-radius: 50%;
+        background-color: transparent;
+        
+        
+        
+    }
+    #pro-pic0{
+        box-shadow: -2px 2px 10px 1px  #059bff;
+        position: absolute;
+        top:20%;
+        margin-top: -100px;
+        left:50%;
+        margin-left: -100px;
+        animation-name: profilecir;
+        animation-timing-function: linear;
+        animation-duration: 3s;
+        animation-delay: 7s;
+        animation-iteration-count: infinite;
+       
+        
+        
+    }
+    #pro-pic1{
+        position: absolute;
+        left:50%;
+        margin-left: -100px;
+        top:20%;
+        margin-top: -100px;
+        background-image:url(WhatsApp\ Image\ 2024-01-12\ at\ 10.37.16_efb41d79.jpg); 
+        background-size:cover;
+    
+    }
+    #pro-pic2{
+        box-shadow: 3px -3px 10px 2px  rgb(255, 255, 255);
+        position: absolute;
+        left:50%;
+        top:20%;
+        margin-top: -100px;
+        margin-left: -100px;
+        z-index: 1;  
+    }
+    .icons{
+        opacity: 100%;
+        height:50px;
+        width: 50px;
+        
+       
+    }
+    .icon{
+        z-index: 1;
+    }
+    #insta{
+        position: absolute;
+        top:30%;
+        left:7%;
+        animation-name: instag;
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    #git{
+        position:absolute;
+        top:65%;
+        left: 80%;
+        animation-name: profilecir; 
+       
+        animation-duration: 15s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    #twit{
+        position: absolute;
+        top:90%;
+        left:20%;
+        animation-name: twitg;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        animation-timing-function:linear;
+    }
+    #link{
+        position: absolute;
+        top:55%;
+        left:60%;
+        animation-name: linkg;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        
+    }
+    #auto-box{
+        display:flex;
+        flex-direction: column;
+        overflow: hidden;
+        width:90%;
+        height:80px;
+        margin:5vh auto;
+        background-color:transparent;
+        
+
+    }
+    #auto-box div{
+        width:100%;
+        height: 80px;
+        position:relative;
+        text-align: center;
+        justify-content: center;
+        
+        animation-name: auto-tex;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+
+    }
+    #auto-box div p{
+        width:100%;
+        height: 80px;
+        margin:0 0;
+        font-size:xx-large;
+        font-size: 1.7rem;
+        color:white;
+        text-shadow:0px 0px 10px #059bff;
+    }
+    #details{
+        width:90%;
+        /* margin:3vh auto; */
+        margin-top: 1vh;
+        margin-left: auto !important; /* edit by me replace of margin 3vh auto */
+        background-color: transparent;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255,.3);
+        box-shadow: 0px 0px 10px 2px  rgb(255, 255, 255);
+        padding: 2%; 
+    }
+    fieldset{
+        width:90%;
+        margin:5vh auto;
+        border-radius: 5%;
+        border:2px solid white;
+        background-color: rgba(0, 0, 0,.7);
+        box-shadow: 0px 0px 10px 2px  rgb(255, 255, 255);
+        
+        
+
+    }
+    legend{
+        font-size: xx-large;
+        color:whitesmoke;
+    }
+    #greet{
+        color:#ffffff;
+        margin-bottom: 0;
+    }
+    #My-words{
+        margin:0 0;
+        color:#ffffff;
+        text-align: center;
+        padding:10px;
+    }
+    #q1{
+        margin:5% 0;
+        color:#ffffff;
+        text-align: center;
+        padding:10px;
+
+    }
+    
+    .navbar-brand{
+        font-weight:bold; 
+        font-size: xx-large;
+        margin-top: 10px;
+        padding: 30px;
+        padding: auto;
+        font-family: 'Lemon', serif !important;
+        letter-spacing: 2px;
+    }
+    .nav{
+        font-weight: 300;
+        position: sticky !important;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+    .nav-link{
+        color: white !important;
+    }
+    .nav-link:hover{
+        border-bottom: 1px solid white ;
+        transform: scale(1.5);
+        padding: 10px;
+        margin: 5px;
+    }
+
+
+
+
+    @keyframes profilecir{
+        0%{
+            transform: rotate(0deg);
+        }
+        25%{
+            transform: rotate(90deg);
+        }
+        50%{
+            transform: rotate(180deg);
+        }
+        75%{
+            transform: rotate(270deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    @keyframes instag {
+        25%{
+            top:20%;
+            transform: rotate(90deg);
+            }
+        50%{
+            top:80%;
+            transform: rotate(180deg);
+        }
+        
+        100%{
+            top:30%;
+            transform: rotate(360deg);
+        }
+        
+    }
+    @keyframes linkg {
+       0%{
+        top:55%;
+        left:60%;
+
+       }
+        25%{
+            top:40%;
+            left:0%;
+            transform: rotate(90deg);
+            }
+        50%{
+            top:60%;
+            transform: rotate(180deg);
+        }
+        
+        75%{
+            top:80%;
+            transform: rotate(360deg);
+        }
+        90%{
+            top:0%;
+            left:80%;
+        }
+        100%{
+            top:55%;
+            left:60%;
+    
+           }
+    }
+    @keyframes twitg {
+        0%{
+            top:90%;
+            left:20%;
+           
+ 
+        }
+         25%{
+             left:0%;
+             transform: rotate(-90deg);
+             }
+         50%{
+             
+             left:20%;
+             transform: rotate(-180deg);
+         }
+         
+         75%{
+             left:40%;
+             transform: rotate(-360deg);
+         }
+         90%{
+            top:50%;
+            left:20%;
+         }
+         100%{
+            top:90%;
+            left:20%;
+           
+         }
+
+}
+@keyframes auto-tex {
+    0%{
+        top:40px;
+    }
+    20%{
+        
+        top:-60px;
+    }
+    40%{
+        top:-160px;
+    }
+    60%{
+        top:-220px;
+    }
+    80%{
+        top:-300px;
+    }
+    100%{
+        top:40px;
+    }
+    
+}
+}
+@media (min-width:1200px)
+{
+    body{
+        background-image: url(PrettySnow4-Black-BG-Winter-Motion-Background-Video-Loop-SampleStill.jpg);
+        background-size:cover;
+        height:fit-content;
+        background-repeat: no-repeat;
+        /* display:flex;
+        flex-direction: row; */
+        justify-content: center;
+        justify-items: center;
+        margin-top:5%;
+    }
+    .flex{
+          display:flex;
+        flex-direction: row;
+    }
+    .navbar-brand{
+        font-weight:bold; 
+        font-size: xx-large;
+        margin-top: 10px;
+        padding: 30px;
+        padding: auto;
+        font-family: 'Lemon', serif !important;
+        letter-spacing: 2px;
+    }
+    .nav{
+        font-weight: 300;
+        position: sticky !important;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+    .nav-link{
+        color: white !important;
+    }
+    .nav-link:hover{
+        border-bottom: 1px solid white ;
+        transform: scale(1.5);
+        padding: 10px;
+        margin: 5px;
+    }
+    
+    /* For Actual Device */
+    #profile-sec{
+        width:30%;
+        display: flex;
+        flex-direction: column;
+        height:max-content;
+        background-color: #fff;
+        border-radius: 10%;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+    #profile-sec:hover{
+        box-shadow: 5px 5px grey;
+        /* background-color: none; */
+        /* filter: blur(10); */
+     }
+    #pro-pic1{
+        width:75%;
+        height:40vh;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top: 5vh;
+        background-image:url(WhatsApp\ Image\ 2024-01-12\ at\ 10.37.16_efb41d79.jpg); 
+        background-size:cover;
+    
+    }
+    .icons {
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1%;
+        letter-spacing: 10px;
+    }
+    img:hover{ 
+        transform: scale(1.5);
+    }
+    /* .icons{
+        margin-top: 10%;
+        margin-left:auto;
+        margin-right: auto;
+        margin-bottom: 1%;
+    }*/
+    
+    .icon{
+        width:50px;
+        height:50px;
+    } 
+    .name-txt{
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+    .name-txt h1{
+        margin-top:0;
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 0%;
+    }
+    .name-txt quote{
+        width: 70%;
+        font-size: 2em;
+       
+    }
+    #auto-box{
+        display: none;
+    }
+    
+    
+    
+    /* Right Content */
+    #details{
+        width:70%;
+        margin-top: auto;
+        margin-bottom: auto; 
+        background-color:transparent;
+        border-radius: 5%;
+        opacity: 100%;
+        margin-left: 95px;
+        margin-right: 20px;
+    
+    }
+    fieldset{
+        width:80%;
+        margin:auto auto;
+        border-radius: 5%;
+        border:2px solid white;
+        background-color: rgb(0, 0, 0,);
+        box-shadow: 0px 0px 10px 20px  rgba(255, 255, 255, 0.7);
+    }
+    legend{
+        font-size: 2rem;
+        color:whitesmoke;
+    }
+    #greet{
+        color:#ffffff;
+        margin-bottom: 0;
+        font-size: 2em;
+        margin-bottom: 2%;
+        text-shadow:  1px 1px 25px #fff;
+    
+    }
+    #My-words{
+        margin:0 0;
+        color:#ffffff;
+        font-size: 1.5em;
+        text-align: center;
+        padding:0%;
+        padding-top: 0%;
+        text-shadow:  1px 1px 25px #fff;
+        padding-bottom: 0%;
+    }
+    #q1{
+        margin:5% 0;
+        font-size: 1.5em;
+        color:#ffffff;
+        text-align: center;
+        text-shadow:  1px 1px 25px #fff;
+    }
+    }
+    
+
+    /*skills*/
+section .skill_sec{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    position: relative;
+    font-family: sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-wrap: wrap;
+   
+
+}
+.top_div{
+    
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.top_div h1{
+    position: relative;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 30px;
+        /* height: 80px;
+        margin:0 0; */
+        font-size:xx-large;
+        font-size: 2.7rem;
+        color:white;
+        text-shadow:0px 0px 10px #059bff;
+
+}
+.top_div hr{
+    position: relative;
+    width: 10ss0px;
+    height: 4px;
+    border: none;
+    background: #7db6aa;
+}
+.skill{
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    border:3px solid white;
+    /* box-shadow: 0px 0px 5px 5px  rgba(255, 255, 255, 0.7); */
+    box-shadow: 0px 0px 10px 2px  rgb(255, 255, 255); 
+    border-radius: 10%;
+    
+}
+
+.skill img{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background: #eee;
+    border-radius: 50%;
+    box-shadow: 3px -3px 10px 2px  rgb(255, 255, 255);
+        position: absolute;
+        left:50%;
+        top:20%;
+        margin-top: -100px;
+         margin-left: -100px; 
+        z-index: 1;   
+    
+}
+
+.skill h2{
+    font-size: 18px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 2rem;
+        /* margin-bottom: 0%; */
+        /* padding-top: 4vh;
+        margin-top: -17vh; */
+        font-family: 'Russo One', sans-serif;
+        color: #ffffff;
+        text-shadow: 0px 0px 25px #fff;
+}
+.skill p{
+    /* font-size: 13px;
+    line-height: 1.4; */
+    margin:0 0;
+        color:#ffffff;
+        font-size: 1.5em;
+        text-align: center;
+        padding:0%;
+        padding-top: 0%;
+        text-shadow:  1px 1px 25px #fff;
+        padding-bottom: 0%;
+}
+
+section .cont{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info{
+    color: #fff;
+    max-width: 500px;
+    line-height: 65px;
+    padding-left: 50px;
+    font-size: 18px;
+
+}
+.contact-info i{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.contact-form{
+    max-width: 700px;
+    margin-right: 50px;
+}
+.contact-info, .contact-form{
+    flex: 1;
+}
+.contact-form h2{
+    color: #fff;
+    text-align: center;
+    /* font-size: 35px; */
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size:xx-large;
+    font-size: 2.7rem;
+    color:white;
+    text-shadow:0px 0px 10px #059bff;
+}
+.contact-form .text-box{
+    background: #000;
+    color:#fff ;
+    border:3px solid white;
+    box-shadow: 0px 0px 10px 2px  rgb(255, 255, 255); 
+    border-radius: 5%;
+    width: calc(50% -10px);
+    height:50px;
+    padding: 12px;
+    font-size: 15px;
+    /* border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0,0.1); */
+    margin-bottom: 20px;
+    opacity: 0.9;
+
+
+}
+
+.contact-form .text-box:first-child{
+    margin-right: 15px;
+}
+
+.contact-form textarea{
+    background: #000;
+    color: #fff;
+    border:3px solid white;
+    box-shadow: 0px 0px 10px 2px  rgb(255, 255, 255); 
+    border-radius: 5%;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+ 
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+.contact-form .send-btn{
+    float: right;
+    background: transparent;
+    color: #fff;
+    border: 5px solid white;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px  rgb(255, 255, 255); 
+}
+.contact-form .send-btn:hover{
+    transform: scale(1.1);
+    border: 5px solid black;
+    /* color: black;
+    background-color: #fff; */
+
+
+}
+@media  screen and (max-width:950px) {
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-info, .contact-form{
+        margin: 30px 50px;
+    }
+    .contact-form h2{
+        font-size: 30px;
+    }
+    .contact-form .text-box{
+        width: 100%;
+    }
+    
+}
+.space{
+    display: flex;
+    flex: 3;
+   
+}
